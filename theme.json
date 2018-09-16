@@ -1,0 +1,13 @@
+{
+    "name": "AdminLTE",
+    "type": "dashboard",
+    "description": "AdminLTE dashboard theme for the Dappur PHP Framework",
+    "version": "1.0.0",
+    "homepage": "https://dappur.io",
+    "license": "MIT",
+    "authors": [{
+        "name": "Edward Teach",
+        "email": "edward@edwardteach.co",
+        "homepage": "https://dappur.io"
+    }]
+}
