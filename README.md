@@ -1,18 +1,18 @@
 # theme-dappur
 AdminLTE dashboard theme for the Dappur PHP Framework
 
-![alt text][s1] | ![alt text][s2]
+Users <br > ![alt text][s1] | Add User <br > ![alt text][s2]
 --------------- | ---------------
-![alt text][s3] | ![alt text][s4]
-![alt text][s5] | ![alt text][s6]
-![alt text][s7] | ![alt text][s8]
-![alt text][s9] | ![alt text][s10]
-![alt text][s11] | ![alt text][s12]
-![alt text][s13] | ![alt text][s14]
-![alt text][s15] | ![alt text][s16]
-![alt text][s17] | ![alt text][s18]
-![alt text][s19] | ![alt text][s20]
-![alt text][s21] | ![alt text][s22]
+Sent Emails <br > ![alt text][s3] | Send Email <br > ![alt text][s4]
+Email Templates <br > ![alt text][s5] | New Template <br > ![alt text][s6]
+Blog <br > ![alt text][s7] | Blog Comments <br > ![alt text][s8]
+New Blog Post <br > ![alt text][s9] | Local CMS 1 <br > ![alt text][s10]
+Local CMS 2 <br > ![alt text][s11] | Cloudinary CMS <br > ![alt text][s12]
+Contact Requests <br > ![alt text][s13] | Oauth2 Providers <br > ![alt text][s14]
+Add Oauth2 Provider <br > ![alt text][s15] | SEO Settings <br > ![alt text][s16]
+New SEO Config <br > ![alt text][s17] | Custom Routes <br > ![alt text][s18]
+New Custom Route <br > ![alt text][s19] | Menu Editor <br > ![alt text][s20]
+Global Settings <br > ![alt text][s21] | Log Viewer <br > ![alt text][s22]
 
 [s1]: https://cdn.rawgit.com/dappur/theme-AdminLTE/fb399848/screenshots/1.png "Users"
 [s2]: https://cdn.rawgit.com/dappur/theme-AdminLTE/fb399848/screenshots/2.png "Add User"
