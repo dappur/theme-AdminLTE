@@ -1,18 +1,19 @@
 # theme-dappur
 AdminLTE dashboard theme for the Dappur PHP Framework
 
-Users <br > ![alt text][s1] | Add User <br > ![alt text][s2]
---------------- | ---------------
-Sent Emails <br > ![alt text][s3] | Send Email <br > ![alt text][s4]
-Email Templates <br > ![alt text][s5] | New Template <br > ![alt text][s6]
-Blog <br > ![alt text][s7] | Blog Comments <br > ![alt text][s8]
-New Blog Post <br > ![alt text][s9] | Local CMS 1 <br > ![alt text][s10]
-Local CMS 2 <br > ![alt text][s11] | Cloudinary CMS <br > ![alt text][s12]
-Contact Requests <br > ![alt text][s13] | Oauth2 Providers <br > ![alt text][s14]
-Add Oauth2 Provider <br > ![alt text][s15] | SEO Settings <br > ![alt text][s16]
-New SEO Config <br > ![alt text][s17] | Custom Routes <br > ![alt text][s18]
-New Custom Route <br > ![alt text][s19] | Menu Editor <br > ![alt text][s20]
-Global Settings <br > ![alt text][s21] | Log Viewer <br > ![alt text][s22]
+Screenshots | AdminLTE (22)
+-------------------------------------------------------	| ----------------------------------------------
+Users <br> ![alt text][s1] <br><br> 					| Add User <br> ![alt text][s2] <br><br>
+Sent Emails <br> ![alt text][s3] <br><br> 				| Send Email <br> ![alt text][s4] <br><br>
+Email Templates <br> ![alt text][s5] <br><br> 			| New Template <br> ![alt text][s6] <br><br>
+Blog <br> ![alt text][s7] <br><br> 						| Blog Comments <br> ![alt text][s8] <br><br>
+New Blog Post <br> ![alt text][s9] <br><br> 			| Local CMS 1 <br> ![alt text][s10] <br><br>
+Local CMS 2 <br> ![alt text][s11] <br><br> 				| Cloudinary CMS <br> ![alt text][s12] <br><br>
+Contact Requests <br> ![alt text][s13] <br><br> 		| Oauth2 Providers <br> ![alt text][s14] <br><br>
+Add Oauth2 Provider <br> ![alt text][s15] <br><br> 		| SEO Settings <br> ![alt text][s16] <br><br>
+New SEO Config <br> ![alt text][s17] <br><br> 			| Custom Routes <br> ![alt text][s18] <br><br>
+New Custom Route <br> ![alt text][s19] <br><br> 		| Menu Editor <br> ![alt text][s20] <br><br>
+Global Settings <br> ![alt text][s21] <br><br> 			| Log Viewer <br> ![alt text][s22] <br><br>
 
 [s1]: https://cdn.rawgit.com/dappur/theme-AdminLTE/fb399848/screenshots/1.png "Users"
 [s2]: https://cdn.rawgit.com/dappur/theme-AdminLTE/fb399848/screenshots/2.png "Add User"
