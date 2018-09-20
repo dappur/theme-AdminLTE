@@ -1,7 +1,8 @@
 # Changelog
 
 ## [Unreleased]
-### No Changes
+### Removed
+- `my-account.twig` no longer needed.
 
 ## [1.0.0] - 2018-09-16
 ### Notes
