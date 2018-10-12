@@ -179,6 +179,15 @@
                                 <input type="text" class="form-control item-menu" id="permission" name="permission" placeholder="permission.*">
                             </div>
                             <div class="col-md-6">
+                                <label for="config_boolean" class="control-label">Config Option</label>
+                                <select name="config_boolean" id="config_boolean" class="form-control item-menu select2">
+                                    <option value=""></option>
+                                    {% for c in configOptions %}
+                                        <option value="{{ c.name }}">{{ c.description }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="col-md-6">
                                 <label for="target" class="control-label">Target</label>
                                 <select name="target" id="target" class="form-control item-menu select2">
                                     <option value="_self">Self</option>
