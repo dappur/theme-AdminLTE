@@ -1,6 +1,12 @@
 # Changelog
 
 ## [Unreleased]
+### No Changes
+
+## [1.0.1] - 2018-10-11
+### Changed
+- `inc/admin-sidebar.twig` to support the `config_boolean` menu item option.
+
 ### Removed
 - `my-account.twig` no longer needed.
 
@@ -8,5 +14,6 @@
 ### Notes
 This is the initial release that separates the themes from the main repository.  This creates an additional installation step, which will be mitigated by the [dApp CLI](https://github.com/dappur/dapp) installation process.
 
-[Unreleased]: https://github.com/dappur/theme-AdminLTE/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/dappur/theme-AdminLTE/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/dappur/theme-AdminLTE/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/dappur/theme-AdminLTE/tree/v1.0.0
