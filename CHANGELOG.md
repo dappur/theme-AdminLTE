@@ -6,6 +6,7 @@
 ## [1.0.1] - 2018-10-11
 ### Changed
 - `inc/admin-sidebar.twig` to support the `config_boolean` menu item option.
+- `menus.twig` to support the `config_boolean` menu item option.
 
 ### Removed
 - `my-account.twig` no longer needed.
