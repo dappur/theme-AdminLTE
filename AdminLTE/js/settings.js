@@ -51,7 +51,7 @@ $(function () {
         }else if (type_id == 3) {
             $('#value_input').html('<input type="text" name="add_value" id="add_value" class="form-control" value="" placeholder="Value">');
         }else if (type_id == 8) {
-            $('#value_input').html('<input type="text" name="add_value" id="add_value" class="form-control jscolor" value="" placeholder="Value">');
+            $('#value_input').html('<input type="text" name="add_value" id="add_value" class="form-control jscolor" value="#FFFFFF" placeholder="Value">');
             var input = document.getElementById('add_value');
             window['pickeradd'] = new jscolor(input, {width:243, height:150, borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666', hash:true});
         }else if (type_id == 2) {
@@ -196,7 +196,7 @@ $(function () {
                 if (tempInput.hasClass('htmlinput')) {
                     tempInput.siblings('.row').children('button').data('html', configButton.data('default'));
                 }
-                configButton.html(clearDisplay);
+                configButton.html(cancelDisplay);
             }else{
                 configButton.html(cancelDisplay);
             }
@@ -258,7 +258,7 @@ $(function () {
                     configButton.children(".config-saved").fadeOut(2000, function() { 
                         $(this).remove();
                         if (tempInput.hasClass('jscolor') || tempInput.hasClass('htmlinput')) {
-                            configButton.html(clearDisplay);
+                            configButton.html(cancelDisplay);
                         }else{
                             configButton.html(cancelDisplay);
                         }
@@ -270,7 +270,7 @@ $(function () {
                         title: parsed.message
                     });
                     if (tempInput.hasClass('jscolor') || tempInput.hasClass('htmlinput')) {
-                        configButton.html(clearDisplay);
+                        configButton.html(cancelDisplay);
                     }else{
                         configButton.html(cancelDisplay);
                     }
@@ -290,12 +290,11 @@ $(function () {
         configButton.html(editDisplay);
     });
 
-    $(document).on('change', '.jscolor', function(){
+    $(document).on('change', '.jscolor-config', function(){
         var configButton = $(this).siblings('label').children('.config-button');
         var tempInput = $(this);
         var formData = {};
         formData[tempInput.attr('name')] = tempInput.val();
-        tempInput.attr('disabled', true);
         configButton.html(editDisplay);
     });
 

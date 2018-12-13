@@ -88,9 +88,10 @@
 			<label for="{{ name }}">
 				{{ description }} - ({{name}})
 				<span class="config-button" data-default="{{ value }}">
+					<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
 				</span>
 			</label>
-			<input type="text" name="{{ name }}" id="{{ name }}" class="form-control jscolor" data-jscolor="{width:243, height:150, borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666', hash:true}" value="{{ value }}" disabled/>
+			<input type="text" name="{{ name }}" id="{{ name }}" class="form-control jscolor jscolor-config" data-jscolor="{width:243, height:150, borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666', hash:true}" value="{{ value }}" disabled/>
 		    <span id="{{ id }}-help-block" class="help-block">{{ error(name) }}</span>
 		</div>
 {% endmacro %}

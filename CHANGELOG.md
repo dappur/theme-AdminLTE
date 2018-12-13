@@ -1,7 +1,9 @@
 # Changelog
 
 ## [Unreleased]
-### No Changes
+### Fixed
+- Issue when adding color config option while feild was disabled.
+- Fixed ability to edit the color config option
 
 ## [1.0.1] - 2018-10-11
 ### Changed
