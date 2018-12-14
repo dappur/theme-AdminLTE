@@ -39,14 +39,20 @@
                                     <legend>Details</legend>
                                     <div class="form-group{% if has_error('name') %} has-error{% endif %}">
                                         <label for="name">Name</label>
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" value="{% if requestParams.name %}{{requestParams.name}}{% else %}{{ route.name }}{% endif %}" required="required">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" value="{% if requestParams.name %}{{requestParams.name}}{% else %}{{ route.name }}{% endif %}"{% if route.name == "home" %}readonly{% else %} required="required"{% endif %}>
                                         <span class="help-block">{{ error('name') }}</span>
                                     </div>
+                                    {% if route.pattern is empty %}
                                     <div class="form-group{% if has_error('pattern') %} has-error{% endif %}">
-                                        <label for="pattern">Route<br /><span style="color: red;">https://{{config.domain}}/</span><span style="color: green;">{route}</span></label>
-                                        <input type="text" name="pattern" class="form-control" id="pattern" placeholder="Route" value="{% if requestParams.pattern %}{{requestParams.pattern}}{% else %}{{ route.pattern }}{% endif %}" required="required">
-                                        <span class="help-block">{{ error('pattern') }}</span>
+                                        <input type="hidden" name="pattern" class="form-control" id="pattern" value="">
                                     </div>
+                                    {% else %}
+                                        <div class="form-group{% if has_error('pattern') %} has-error{% endif %}">
+                                            <label for="pattern">Route<br /><span style="color: red;">https://{{config.domain}}/</span><span style="color: green;">{route}</span></label>
+                                            <input type="text" name="pattern" class="form-control" id="pattern" placeholder="Route" value="{% if requestParams.pattern %}{{requestParams.pattern}}{% else %}{{ route.pattern }}{% endif %}" required="required">
+                                            <span class="help-block">{{ error('pattern') }}</span>
+                                        </div>
+                                    {% endif %}
                                     <div class="row">
                                         <div class="form-group col-xs-12{% if has_error('permission') %} has-error{% endif %}">
                                             <label for="permission">Limit to Permission</label>
