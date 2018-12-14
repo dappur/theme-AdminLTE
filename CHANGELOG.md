@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Disabled editing home page name or route pattern
+
 ### Fixed
 - Issue when adding color config option while feild was disabled.
 - Fixed ability to edit the color config option
