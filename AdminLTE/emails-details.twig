@@ -34,8 +34,12 @@
                         <form action="{{ currentRoute }}" method="POST" role="form">
                             <div class="col-md-6">
                                 <h3>Details</h3>
-                                <h4>Name: {{ user.first_name }} {{ user.last_name }}</h4>
-                                <h4>Username: {{user.username}}</h4>
+                                <h4>Status: {{email.status}}</h4>
+                                <h4>Message ID: {{email.secure_id}}</h4>
+                                {% if user %}
+                                    <h4>Name: {{ user.first_name }} {{ user.last_name }}</h4>
+                                    <h4>Username: {{user.username}}</h4>
+                                {% endif %}
                                 <h4>To: {{email.send_to}}</h4>
                                 <h4>Subject: {{email.subject}}</h4>
                                 <h4>Plain Text: </h4>

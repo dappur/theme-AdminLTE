@@ -20,9 +20,6 @@ $(function () {
         $(".cke_editable").focus(function() {
             
         });
-        $("#plain_text").focus(function() {
-            activeEditor = "plain_text";
-        });
         $("#subject").focus(function() {
             activeEditor = "subject";
         });
@@ -30,12 +27,6 @@ $(function () {
         $(document).on('click', '.placeholder-insert', function(){
             if (activeEditor == "html") {
                 CKEDITOR.instances.html.insertHtml($(this).attr('data-insert'));
-            }
-            if (activeEditor == "plain_text") {
-                var $txt = jQuery("#plain_text");
-                var caretPos = $txt[0].selectionStart;
-                var textAreaTxt = $txt.val();
-                $txt.val(textAreaTxt.substring(0, caretPos) + $(this).attr('data-insert') + textAreaTxt.substring(caretPos) );
             }
             if (activeEditor == "subject") {
                 var $txt = jQuery("#subject");
@@ -88,7 +79,7 @@ $(function () {
             }
         });
         
-        $(document).on('mousedown', '#plain_text, #cke_1_resizer', function(e){
+        $(document).on('mousedown', '#cke_1_resizer', function(e){
             $(document).mousemove(function(){
                 $("body").getNiceScroll().resize();
             });
@@ -98,7 +89,6 @@ $(function () {
 
             var subject = $("#subject").val();
             var html = CKEDITOR.instances['html'].getData();
-            var plain_text = $("#plain_text").val();
 
             swal({
                 title: 'Would you like to send a test email to yourself?',
@@ -110,7 +100,7 @@ $(function () {
                     return new Promise(function (resolve, reject) {
                         DappurCSRF.csrfAjax( 
                             '/dashboard/email/test', 
-                            {subject: subject, html: html, plain_text: plain_text}, 
+                            {subject: subject, html: html}, 
                             function(result){
                                 parsed = jQuery.parseJSON(result);
                                 if (parsed.status == "error") {

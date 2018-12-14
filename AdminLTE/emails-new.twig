@@ -74,12 +74,6 @@
                                     <span class="help-block">{{ error('html') }}</span>
                                 </div>
 
-                                <div class="form-group{% if has_error('plain_text') %} has-error{% endif %}">
-                                    <label for="plain_text">Plain Text</label>
-                                    <textarea name="plain_text" class="form-control" id="plain_text" required="required" style="height: 200px;">{% if requestParams.plain_text %}{{requestParams.plain_text}}{% endif %}</textarea>
-                                    <span class="help-block">{{ error('plain_text') }}</span>
-                                </div>
-
                                 <div class="form-group col-md-6">
                                     <button type="submit" class="btn btn-success form-control">Send Email</button>
                                 </div>

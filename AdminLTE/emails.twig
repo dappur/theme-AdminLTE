@@ -41,6 +41,8 @@
                                     <th>Sent At</th>
                                     <th>Subject</th>
                                     <th>Send To</th>
+                                    <th>Status</th>
+                                    <th>Message ID</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
@@ -73,8 +75,10 @@ $(document).ready(function() {
                },
         "columns": [
             { "data": "created_at" },
-            { "data": "send_to" },
             { "data": "subject" },
+            { "data": "send_to" },
+            { "data": "status" },
+            { "data": "secure_id" },
             { 
                 "data": "id",
                 "orderable": false,
