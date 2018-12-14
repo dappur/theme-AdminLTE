@@ -5,6 +5,9 @@
 - Issue when adding color config option while feild was disabled.
 - Fixed ability to edit the color config option
 
+### Removed
+- Plain text option from all email pages.  This is now handled automatically.
+
 ## [1.0.1] - 2018-10-11
 ### Changed
 - `inc/admin-sidebar.twig` to support the `config_boolean` menu item option.
