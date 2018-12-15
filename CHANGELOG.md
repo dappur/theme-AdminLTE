@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Changed
 - Disabled editing home page name or route pattern
+- Email Details Layout with Status
 
 ### Fixed
 - Issue when adding color config option while feild was disabled.
