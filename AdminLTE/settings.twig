@@ -1,6 +1,6 @@
 {% extends 'base.twig' %}
 
-{% import 'macros/global-config.twig' as configMacro %}
+{% import 'macros/config.twig' as configMacro %}
 
 {% block title %}{{config['site-name']}} || Settings{% endblock %}
 
@@ -30,7 +30,7 @@
 
         <div class="row">
             
-            {% include 'inc/settings-view.twig' %}
+            {% include 'inc/settings-panel.twig' %}
 
             {% include 'inc/settings-controls.twig' %}
 

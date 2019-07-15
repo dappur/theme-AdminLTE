@@ -5,6 +5,9 @@
 					<span class="config-button" data-default="{{ value }}">
 						<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
 					</span>
+					<span class="config-button config-delete" data-name="{{ name }}">
+						<span><i class="fa fa-close"></i> Delete</span>
+					</span>
 				</label>
 			    <input type="text" name="{{ name }}" id="{{ name }}" class="form-control" value="{{ value }}" disabled>
 			    <span id="{{ id }}-help-block" class="help-block">{{ error(name) }}</span>
@@ -33,6 +36,9 @@
 				<span class="config-button" data-default="{{ value }}">
 					<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
 				</span>
+				<span class="config-button config-delete" data-name="{{ name }}">
+					<span><i class="fa fa-close"></i> Delete</span>
+				</span>
 			</label>
 		    <select name="{{ name }}" id="{{ name }}" class="form-control" required="required" disabled>
 		    	
@@ -49,6 +55,9 @@
 			{{ name }}">{{ description }}
 			<span class="config-button" data-default="{{ value }}">
 				<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
+			</span>
+			<span class="config-button config-delete" data-name="{{ name }}">
+				<span><i class="fa fa-close"></i> Delete</span>
 			</span>
 		</label>
 		    <input type="text" name="{{ name }}" id="{{ name }}" class="form-control" value="{{ value }}" disabled>
@@ -78,6 +87,9 @@
 				<span class="config-button" data-default="{{ value }}">
 					<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
 				</span>
+				<span class="config-button config-delete" data-name="{{ name }}">
+					<span><i class="fa fa-close"></i> Delete</span>
+				</span>
 			</label>
 		    <div class="input-group dm-input" data-name="{{ name }}" data-value="{{ value }}"></div>
 		    <span id="{{ id }}-help-block" class="help-block">{{ error(name) }}</span>
@@ -89,6 +101,9 @@
 				{{ description }} - ({{name}})
 				<span class="config-button" data-default="{{ value }}">
 					<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
+				</span>
+				<span class="config-button config-delete" data-name="{{ name }}">
+					<span><i class="fa fa-close"></i> Delete</span>
 				</span>
 			</label>
 			<input type="text" name="{{ name }}" id="{{ name }}" class="form-control jscolor jscolor-config" data-jscolor="{width:243, height:150, borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666', hash:true}" value="{{ value }}" disabled/>
@@ -102,6 +117,9 @@
 				{{ description }} - ({{name}})
 				<span class="config-button" data-default="{{ value }}">
 					<span class="config-edit"><i class="fa fa-edit"></i> Edit</span>
+				</span>
+				<span class="config-button config-delete" data-name="{{ name }}">
+					<span><i class="fa fa-close"></i> Delete</span>
 				</span>
 			</label>
 		    <select name="{{ name }}" id="{{ name }}" class="form-control" required="required" disabled>
@@ -118,6 +136,9 @@
 					{{ description }} - ({{name}})
 					<span class="config-button" data-default="{{ value }}">
 						
+					</span>
+					<span class="config-button config-delete" data-name="{{ name }}">
+						<span><i class="fa fa-close"></i> Delete</span>
 					</span>
 				</label>
 				<input type="hidden" class="htmlinput" name="{{ name }}" id="{{ name }}" value="{{ value }}">
