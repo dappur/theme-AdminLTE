@@ -4,7 +4,6 @@ $(document).on('click', '.change_password', function(){
         text: "Please enter your current password to continue. If you do not know your current password, logout and click 'Forgot Password' on the login page.",
         input: 'password',
         inputAttributes: {
-            'maxlength': 10,
             'autocapitalize': 'off',
             'autocorrect': 'off'
         },
