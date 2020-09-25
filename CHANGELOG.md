@@ -3,6 +3,10 @@
 ## [Unreleased]
 ### No Changes
 
+## [4.0.0] - 2019-09-24
+### Fixed
+- Removed provider button from admin
+
 ## [4.0.0-RC1] - 2019-07-14
 ### Added
 - Google Analytics Embed API and javascript to `dashboard.twig`
