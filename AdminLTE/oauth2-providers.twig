@@ -56,7 +56,7 @@
                                         <td>{{ provider.name }}</td>
                                         <td>{{ provider.slug }}</td>
                                         <td>
-                                            <a href="{{ authorize_url(provider.id, client_ids[provider.id], 1) }}" class="btn btn-block btn-social btn-{{provider.button}} form-control">
+                                            <a href="#" class="btn btn-block btn-social btn-{{provider.button}} form-control">
                                                 <span class="fa fa-{{provider.button}}"></span> Connect {{provider.name}}
                                             </a>
                                         </td>
@@ -115,7 +115,5 @@ $(document).ready(function() {
 
     });
 });
-
-
 </script>
 {% endblock %}
