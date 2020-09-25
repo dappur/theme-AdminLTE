@@ -37,7 +37,8 @@
 ### Notes
 This is the initial release that separates the themes from the main repository.  This creates an additional installation step, which will be mitigated by the [dApp CLI](https://github.com/dappur/dapp) installation process.
 
-[Unreleased]: https://github.com/dappur/theme-dappur/compare/v4.0.0-RC1...HEAD
+[Unreleased]: https://github.com/dappur/theme-dappur/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/dappur/theme-dappur/compare/v4.0.0-RC1...v4.0.0
 [4.0.0-RC1]: https://github.com/dappur/theme-dappur/compare/v1.0.1...v4.0.0-RC1
 [1.0.1]: https://github.com/dappur/theme-AdminLTE/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/dappur/theme-AdminLTE/tree/v1.0.0
