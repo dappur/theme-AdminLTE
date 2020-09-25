@@ -2,7 +2,7 @@
     "name": "AdminLTE",
     "type": "dashboard",
     "description": "AdminLTE dashboard theme for the Dappur PHP Framework",
-    "version": "4.0.0-RC1",
+    "version": "4.0.0",
     "homepage": "https://dappur.io",
     "license": "MIT",
     "authors": [{
